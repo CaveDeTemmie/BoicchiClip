@@ -1,0 +1,25 @@
+[package]
+name = "boicchi-clip"
+version = "0.1.0"
+edition = "2024"
+description = "A game and screen clipping software for Windows"
+
+[dependencies]
+# Screen capture and video encoding
+windows-capture = "2.0.1"
+
+# Audio Capture: microphone desktop and per-application
+# wasapi = "0.27.0"
+
+# Global clipping hotkeys
+# global-hotkey = "0.10.0"
+
+# Communication between threads
+# crossbeam-channel = "0.5"
+
+# Configuration
+# serde = { version = "1.0", features = ["derive"] }
+# toml = "1.2.1"
+
+# GUI
+iced = "0.14.0"
