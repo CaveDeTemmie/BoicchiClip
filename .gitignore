@@ -1,1 +1,3 @@
-video/
+/target/
+/.idea/
+/video/
